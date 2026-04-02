@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ApeIskole.Api/ApeIskole.Api.csproj" />
+    <Project Path="src/ApeIskole.Application/ApeIskole.Application.csproj" />
+    <Project Path="src/ApeIskole.Domain/ApeIskole.Domain.csproj" />
+    <Project Path="src/ApeIskole.Infrastructure/ApeIskole.Infrastructure.csproj" />
+  </Folder>
+</Solution>

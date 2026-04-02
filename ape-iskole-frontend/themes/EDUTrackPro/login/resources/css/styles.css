@@ -1,0 +1,833 @@
+/* =========================================================
+   EduTrack Pro - Keycloak Login Theme
+   Compact, No-Scroll Design with Custom Password Toggle
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --indigo-100: #e0e7ff;
+    --indigo-500: #6366f1;
+    --indigo-600: #4f46e5;
+    --indigo-700: #4338ca;
+    --blue-100: #dbeafe;
+    --blue-500: #3b82f6;
+    --blue-600: #2563eb;
+    --purple-700: #7e22ce;
+    --white: #ffffff;
+    --gray-50: #f9fafb;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-900: #111827;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 50%, #eef2ff 100%) !important;
+    height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 16px !important;
+    overflow: hidden !important;
+}
+
+/* Background blobs */
+body::before {
+    content: '';
+    position: fixed;
+    top: -80px;
+    right: -80px;
+    width: 200px;
+    height: 200px;
+    background: var(--blue-100);
+    border-radius: 50%;
+    filter: blur(60px);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    bottom: -80px;
+    left: -80px;
+    width: 200px;
+    height: 200px;
+    background: var(--indigo-100);
+    border-radius: 50%;
+    filter: blur(60px);
+    opacity: 0.6;
+    z-index: 0;
+}
+
+/* Hide default header */
+#kc-header, #kc-header-wrapper, .pf-c-login__header, .pf-c-brand {
+    display: none !important;
+}
+
+/* Containers */
+.login-pf-page, #kc-container, #kc-container-wrapper {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: transparent !important;
+    position: relative;
+    z-index: 1;
+    overflow: hidden !important;
+}
+
+#kc-content {
+    width: 100% !important;
+    max-width: 380px !important;
+}
+
+/* Login card */
+#kc-content-wrapper, .card-pf {
+    background: rgba(255, 255, 255, 0.97) !important;
+    backdrop-filter: blur(20px) !important;
+    border-radius: 20px !important;
+    box-shadow: 0 20px 50px -15px rgba(0, 0, 0, 0.12) !important;
+    padding: 32px !important;
+    border: 1px solid rgba(255, 255, 255, 0.9) !important;
+    position: relative;
+}
+
+/* Top gradient bar */
+#kc-content-wrapper::before, .card-pf::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--indigo-600), var(--blue-500), var(--purple-700));
+    border-radius: 20px 20px 0 0;
+}
+
+/* Hide default title */
+#kc-page-title { display: none !important; }
+
+/* Logo container */
+#kc-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* School Logo */
+#kc-form-wrapper::before {
+    content: '';
+    display: block;
+    width: 56px;
+    height: 56px;
+    background: transparent;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    box-shadow: 0 8px 24px -6px rgba(59, 130, 246, 0.5);
+    background-image: url('../img/school.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Form container */
+#kc-form {
+    width: 100%;
+    text-align: center;
+}
+
+/* Brand name */
+#kc-form::before {
+    content: 'EduTrack Pro';
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--indigo-600), var(--blue-500));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 4px;
+}
+
+/* Tagline */
+#kc-form::after {
+    content: 'Smart Education Management';
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--gray-500);
+    margin-bottom: 20px;
+}
+
+/* Login form */
+#kc-form-login {
+    text-align: left;
+}
+
+/* Welcome title */
+#kc-form-login::before {
+    content: 'Welcome Back';
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: 20px;
+}
+
+#kc-form-login::after {
+    display: none;
+}
+
+/* Override username label - Hide original text */
+label[for="username"] {
+    font-size: 0 !important;
+    color: transparent !important;
+}
+
+label[for="username"]::after {
+    content: 'Admission / Registration Number';
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: var(--gray-700) !important;
+}
+
+/* Form fields */
+.form-group {
+    margin-bottom: 14px !important;
+    position: relative;
+}
+
+label {
+    display: block !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: var(--gray-700) !important;
+    margin-bottom: 6px !important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+#username,
+#password {
+    width: 100% !important;
+    padding: 11px 14px !important;
+    font-size: 14px !important;
+    font-family: inherit !important;
+    color: var(--gray-900) !important;
+    background: var(--white) !important;
+    border: 2px solid var(--gray-200) !important;
+    border-radius: 10px !important;
+    outline: none !important;
+    transition: all 0.2s !important;
+}
+
+input:focus {
+    border-color: var(--indigo-500) !important;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1) !important;
+}
+
+/* Hide default Keycloak password toggle */
+.pf-c-button.pf-m-control,
+.pf-c-form-control__toggle,
+[class*="password-toggle"],
+.kc-form-group .input-group-btn,
+.input-group-append {
+    display: none !important;
+}
+
+/* Password field wrapper - flexbox layout */
+.password-wrapper {
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+}
+
+.password-wrapper #password {
+    flex: 1;
+}
+
+/* Custom Password Toggle Button - Outside the field */
+.custom-pwd-toggle {
+    width: 44px;
+    min-width: 44px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--white), var(--gray-50));
+    border: 2px solid var(--gray-200);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.custom-pwd-toggle:hover {
+    background: linear-gradient(135deg, var(--indigo-50), var(--white));
+    border-color: var(--indigo-400);
+    transform: scale(1.02);
+}
+
+.custom-pwd-toggle:active {
+    transform: scale(0.98);
+}
+
+.custom-pwd-toggle svg {
+    width: 20px;
+    height: 20px;
+    color: var(--gray-500);
+    transition: color 0.2s;
+}
+
+.custom-pwd-toggle:hover svg {
+    color: var(--indigo-600);
+}
+
+.custom-pwd-toggle.visible svg.eye-open {
+    display: none;
+}
+
+.custom-pwd-toggle.visible svg.eye-closed {
+    display: block !important;
+}
+
+.custom-pwd-toggle svg.eye-closed {
+    display: none;
+}
+
+/* Form options row */
+#kc-form-options {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-bottom: 4px !important;
+    margin-top: -4px !important;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    width: 16px !important;
+    height: 16px !important;
+    accent-color: var(--indigo-600) !important;
+}
+
+.checkbox label {
+    font-size: 13px !important;
+    color: var(--gray-600) !important;
+    margin-bottom: 0 !important;
+}
+
+/* Links */
+a {
+    color: var(--indigo-600) !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+
+a:hover {
+    color: var(--indigo-700) !important;
+}
+
+/* Submit button */
+input[type="submit"],
+button[type="submit"],
+#kc-login,
+.btn-primary {
+    width: 100% !important;
+    padding: 12px 20px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: white !important;
+    background: linear-gradient(135deg, var(--indigo-600), var(--blue-500)) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+    box-shadow: 0 6px 20px -6px rgba(99, 102, 241, 0.5) !important;
+    transition: all 0.2s !important;
+    margin-top: 8px !important;
+}
+
+input[type="submit"]:hover,
+#kc-login:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 25px -6px rgba(99, 102, 241, 0.6) !important;
+}
+
+/* Error messages */
+.alert-error {
+    background: #fef2f2 !important;
+    border: 1px solid #fecaca !important;
+    border-radius: 10px !important;
+    padding: 10px 12px !important;
+    color: #dc2626 !important;
+    font-size: 13px !important;
+    margin-bottom: 14px !important;
+}
+
+/* Registration link */
+#kc-registration {
+    text-align: center !important;
+    margin-top: 20px !important;
+    padding-top: 16px !important;
+    border-top: 1px solid var(--gray-200) !important;
+    font-size: 13px !important;
+    color: var(--gray-600) !important;
+}
+
+/* Social providers */
+#kc-social-providers {
+    margin-top: 18px !important;
+    padding-top: 16px !important;
+    border-top: 1px solid var(--gray-200) !important;
+}
+
+#kc-social-providers::before {
+    content: 'or';
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: var(--gray-400);
+    margin-bottom: 14px;
+}
+
+#kc-social-providers ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#kc-social-providers a {
+    display: block !important;
+    padding: 10px 16px !important;
+    background: var(--white) !important;
+    border: 2px solid var(--gray-200) !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    color: var(--gray-700) !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    transition: all 0.2s !important;
+}
+
+#kc-social-providers a:hover {
+    border-color: var(--indigo-300) !important;
+    background: var(--gray-50) !important;
+}
+
+/* =========================================================
+   RESPONSIVE DESIGN - Mobile First Approach
+   ========================================================= */
+
+/* Extra Small Devices (Portrait Phones) - 320px to 480px */
+@media (max-width: 480px) {
+    body {
+        padding: 12px !important;
+    }
+    
+    #kc-content {
+        max-width: 100% !important;
+    }
+    
+    #kc-content-wrapper, .card-pf {
+        padding: 20px 16px !important;
+        border-radius: 16px !important;
+    }
+    
+    #kc-form-wrapper::before {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 12px;
+    }
+    
+    #kc-form::before {
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+    
+    #kc-form::after {
+        font-size: 10px;
+        margin-bottom: 16px;
+    }
+    
+    #kc-form-login::before {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .form-group {
+        margin-bottom: 12px !important;
+    }
+    
+    label {
+        font-size: 12px !important;
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    #username,
+    #password {
+        padding: 10px 12px !important;
+        font-size: 14px !important;
+        border-radius: 8px !important;
+    }
+    
+    .custom-pwd-toggle {
+        width: 40px;
+        min-width: 40px;
+    }
+    
+    .custom-pwd-toggle svg {
+        width: 18px;
+        height: 18px;
+    }
+    
+    input[type="submit"],
+    button[type="submit"],
+    #kc-login {
+        padding: 11px 18px !important;
+        font-size: 14px !important;
+        border-radius: 8px !important;
+        margin-top: 6px !important;
+    }
+    
+    #kc-form-options {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 8px !important;
+        margin-bottom: 8px !important;
+    }
+    
+    #kc-registration {
+        margin-top: 16px !important;
+        padding-top: 14px !important;
+        font-size: 12px !important;
+    }
+    
+    #kc-social-providers {
+        margin-top: 16px !important;
+        padding-top: 14px !important;
+    }
+    
+    #kc-social-providers a {
+        padding: 9px 14px !important;
+        font-size: 12px !important;
+    }
+    
+    .alert-error {
+        padding: 8px 10px !important;
+        font-size: 12px !important;
+        margin-bottom: 12px !important;
+    }
+    
+    /* Background blobs - smaller on mobile */
+    body::before,
+    body::after {
+        width: 150px;
+        height: 150px;
+        filter: blur(50px);
+    }
+}
+
+/* Small Devices (Landscape Phones) - 481px to 640px */
+@media (min-width: 481px) and (max-width: 640px) {
+    #kc-content {
+        max-width: 420px !important;
+    }
+    
+    #kc-content-wrapper, .card-pf {
+        padding: 28px 24px !important;
+    }
+    
+    #kc-form-wrapper::before {
+        width: 52px;
+        height: 52px;
+    }
+    
+    #kc-form::before {
+        font-size: 22px;
+    }
+}
+
+/* Medium Devices (Tablets) - 641px to 768px */
+@media (min-width: 641px) and (max-width: 768px) {
+    #kc-content {
+        max-width: 450px !important;
+    }
+    
+    #kc-content-wrapper, .card-pf {
+        padding: 32px 28px !important;
+    }
+    
+    #kc-form-wrapper::before {
+        width: 54px;
+        height: 54px;
+    }
+    
+    #kc-form::before {
+        font-size: 24px;
+    }
+}
+
+/* Large Devices (Tablets Landscape / Small Laptops) - 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #kc-content {
+        max-width: 420px !important;
+    }
+    
+    body {
+        padding: 20px !important;
+    }
+}
+
+/* Extra Large Devices (Large Laptops / Desktops) - 1025px and up */
+@media (min-width: 1025px) {
+    #kc-content {
+        max-width: 400px !important;
+    }
+    
+    body {
+        padding: 24px !important;
+    }
+    
+    /* Larger background blobs on desktop */
+    body::before,
+    body::after {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* Height-based Responsive Design */
+/* Very Short Screens (Mobile Landscape, Small Heights) */
+@media (max-height: 600px) {
+    body {
+        padding: 8px !important;
+        align-items: flex-start !important;
+        padding-top: 8px !important;
+    }
+    
+    #kc-content-wrapper, .card-pf {
+        padding: 18px 20px !important;
+    }
+    
+    #kc-form-wrapper::before {
+        width: 44px;
+        height: 44px;
+        margin-bottom: 8px;
+    }
+    
+    #kc-form::before {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    
+    #kc-form::after {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    
+    #kc-form-login::before {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    
+    .form-group {
+        margin-bottom: 8px !important;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        padding: 8px 10px !important;
+        font-size: 13px !important;
+    }
+    
+    .custom-pwd-toggle {
+        width: 38px;
+        min-width: 38px;
+    }
+    
+    input[type="submit"] {
+        padding: 9px 16px !important;
+        margin-top: 4px !important;
+    }
+    
+    #kc-registration {
+        margin-top: 10px !important;
+        padding-top: 10px !important;
+    }
+}
+
+/* Short Screens (Tablets Portrait, Medium Heights) */
+@media (min-height: 601px) and (max-height: 700px) {
+    #kc-content-wrapper, .card-pf {
+        padding: 24px 26px !important;
+    }
+    
+    #kc-form-wrapper::before {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 12px;
+    }
+    
+    #kc-form::before {
+        font-size: 21px;
+        margin-bottom: 3px;
+    }
+    
+    #kc-form::after {
+        font-size: 10px;
+        margin-bottom: 16px;
+    }
+    
+    .form-group {
+        margin-bottom: 12px !important;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        padding: 10px 12px !important;
+    }
+}
+
+/* Medium Height Screens */
+@media (min-height: 701px) and (max-height: 800px) {
+    #kc-content-wrapper, .card-pf {
+        padding: 28px 30px !important;
+    }
+}
+
+/* Orientation-based Responsive Design */
+/* Landscape Orientation */
+@media (orientation: landscape) and (max-height: 600px) {
+    body {
+        padding: 8px 16px !important;
+    }
+    
+    #kc-content {
+        max-width: 380px !important;
+    }
+    
+    #kc-content-wrapper, .card-pf {
+        padding: 16px 20px !important;
+    }
+    
+    #kc-form-wrapper::before {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 6px;
+    }
+    
+    #kc-form::before {
+        font-size: 18px;
+        margin-bottom: 1px;
+    }
+    
+    #kc-form::after {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    
+    #kc-form-login::before {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .form-group {
+        margin-bottom: 6px !important;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        padding: 7px 10px !important;
+        font-size: 13px !important;
+    }
+    
+    input[type="submit"] {
+        padding: 8px 14px !important;
+        margin-top: 4px !important;
+    }
+}
+
+/* Portrait Orientation - Larger Screens */
+@media (orientation: portrait) and (min-width: 768px) {
+    #kc-content {
+        max-width: 450px !important;
+    }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+    /* Larger touch targets for mobile devices */
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    #username,
+    #password {
+        padding: 12px 14px !important;
+        font-size: 16px !important; /* Prevents zoom on iOS */
+    }
+    
+    .custom-pwd-toggle {
+        width: 48px;
+        min-width: 48px;
+        min-height: 44px;
+    }
+    
+    input[type="submit"],
+    button[type="submit"],
+    #kc-login {
+        padding: 14px 20px !important;
+        min-height: 48px;
+    }
+    
+    a {
+        padding: 4px 8px;
+        min-height: 32px;
+        display: inline-flex;
+        align-items: center;
+    }
+}
+
+/* High DPI / Retina Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #kc-form-wrapper::before {
+        background-size: contain;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white !important;
+        padding: 0 !important;
+    }
+    
+    #kc-content-wrapper, .card-pf {
+        box-shadow: none !important;
+        border: 1px solid #ccc !important;
+    }
+    
+    body::before,
+    body::after {
+        display: none;
+    }
+}

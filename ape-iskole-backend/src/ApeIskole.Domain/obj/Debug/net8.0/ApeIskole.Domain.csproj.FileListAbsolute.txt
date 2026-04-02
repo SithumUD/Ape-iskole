@@ -1,0 +1,50 @@
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.deps.json
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.AssemblyInfoInputs.cache
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.AssemblyInfo.cs
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\refint\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ref\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_check\ApeIskole.Domain.deps.json
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_check\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_check\ApeIskole.Domain.pdb
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_announcements\ApeIskole.Domain.deps.json
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_announcements\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_announcements\ApeIskole.Domain.pdb
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.deps.json
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.AssemblyInfoInputs.cache
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.AssemblyInfo.cs
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\refint\ApeIskole.Domain.dll
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ref\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.deps.json
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.AssemblyInfoInputs.cache
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.AssemblyInfo.cs
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\refint\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ref\ApeIskole.Domain.dll
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.deps.json
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\bin\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.AssemblyInfoInputs.cache
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.AssemblyInfo.cs
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\refint\ApeIskole.Domain.dll
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Domain\obj\Debug\net8.0\ref\ApeIskole.Domain.dll

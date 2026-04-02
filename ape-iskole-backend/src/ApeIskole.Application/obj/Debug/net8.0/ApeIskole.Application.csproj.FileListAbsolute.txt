@@ -1,0 +1,66 @@
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.deps.json
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.pdb
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.csproj.AssemblyReference.cache
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.AssemblyInfoInputs.cache
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.AssemblyInfo.cs
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.csproj.CoreCompileInputs.cache
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskol.7D05B74B.Up2Date
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\refint\ApeIskole.Application.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.pdb
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ref\ApeIskole.Application.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_check\ApeIskole.Application.deps.json
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_check\ApeIskole.Application.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_check\ApeIskole.Application.pdb
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_announcements\ApeIskole.Application.deps.json
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_announcements\ApeIskole.Application.dll
+C:\Users\sithu\OneDrive\Documents\projects\ape-iskole-backend\tmp_build_announcements\ApeIskole.Application.pdb
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.deps.json
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.dll
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.pdb
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.csproj.AssemblyReference.cache
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.AssemblyInfoInputs.cache
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.AssemblyInfo.cs
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.csproj.CoreCompileInputs.cache
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskol.7D05B74B.Up2Date
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.dll
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\refint\ApeIskole.Application.dll
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.pdb
+C:\Users\sithu\Videos\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ref\ApeIskole.Application.dll
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.deps.json
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.dll
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.pdb
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.csproj.AssemblyReference.cache
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.AssemblyInfoInputs.cache
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.AssemblyInfo.cs
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.csproj.CoreCompileInputs.cache
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskol.7D05B74B.Up2Date
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.dll
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\refint\ApeIskole.Application.dll
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.pdb
+C:\Users\sithu\OneDrive\Pictures\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ref\ApeIskole.Application.dll
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.deps.json
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.dll
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Application.pdb
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Domain.dll
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\bin\Debug\net8.0\ApeIskole.Domain.pdb
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.csproj.AssemblyReference.cache
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.AssemblyInfoInputs.cache
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.AssemblyInfo.cs
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.csproj.CoreCompileInputs.cache
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskol.7D05B74B.Up2Date
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.dll
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\refint\ApeIskole.Application.dll
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ApeIskole.Application.pdb
+C:\Users\sithu\Music\ape iskole\ape-iskole-backend\src\ApeIskole.Application\obj\Debug\net8.0\ref\ApeIskole.Application.dll

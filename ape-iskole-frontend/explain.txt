@@ -1,0 +1,322 @@
+# Ape Iskole – Project Context Document
+
+## 🌍 Project Overview
+
+**Ape Iskole** is a centralized web-based platform designed for schools in Sri Lanka to digitally manage, share, and promote their activities, events, and communications.
+
+The platform acts as a **nationwide school ecosystem**, enabling:
+
+* Schools to communicate internally and externally
+* Students and communities to stay updated
+* Schools to manage events, donations, and promotions digitally
+
+The initial focus is on a **web application**, with a mobile app planned for future development.
+
+---
+
+## 🎯 Target Audience
+
+* Government schools
+* International schools
+* Private schools
+* School administrators
+* Teachers
+* Students (future phase)
+* School communities (parents, alumni)
+
+---
+
+## 🧩 Core Features
+
+### 1. 🏫 School Registration System
+
+* Schools must register before using the platform
+* Admin verification required (documents like principal letter, ID)
+* Each school gets a dedicated admin panel
+
+---
+
+### 2. 📢 Announcement System (V1)
+
+#### Types of Announcements:
+
+**Community Announcements**
+
+* Sent to ALL schools on the platform
+* Example:
+
+  * Big match announcements
+  * National-level events
+
+**Targeted Announcements**
+
+* Sent to selected schools only
+* Example:
+
+  * Inter-school competitions
+  * Invitations
+
+#### Future (V2):
+
+* Internal announcements (grades/classes within school)
+
+---
+
+### 3. 🎫 Event Management
+
+* Create and manage events:
+
+  * Sports events
+  * Carnivals
+  * Concerts
+  * Big matches
+* Event details page
+* Ticketing support
+
+---
+
+### 4. 🎟️ Ticketing System
+
+* Schools can:
+
+  * Create tickets (Big match, concerts)
+  * Customize ticket format
+  * Generate QR codes
+* Users can purchase tickets (future payment integration)
+
+---
+
+### 5. 💰 Donations Module
+
+* Schools can:
+
+  * Create donation campaigns
+  * Receive funds via payment gateway
+* Example:
+
+  * School development projects
+  * Charity campaigns
+
+---
+
+### 6. 📺 Live Streaming
+
+* Embed live streams using:
+
+  * YouTube
+  * Facebook
+* Used for:
+
+  * Big matches
+  * Events
+  * School functions
+
+---
+
+### 7. 📰 Top Stories & News
+
+* Featured section for:
+
+  * Important school updates
+  * Trending events
+* Controlled by Super Admin
+
+---
+
+### 8. 📢 Promotions & Advertising
+
+* Schools and platform can:
+
+  * Promote offers (e.g., book discounts)
+* Platform includes:
+
+  * Ad spaces (similar to classified websites)
+  * Sponsor sections
+
+---
+
+### 9. 🗺️ School Profiles
+
+Each school has:
+
+* Profile page
+* Description
+* Location (Google Maps)
+* Events and announcements
+
+---
+
+### 10. 🔐 Authentication & Security
+
+Authentication handled using:
+
+* Keycloak (Identity & Access Management)
+
+User roles:
+
+* Super Admin (platform control)
+* School Admin (school-level control)
+* Moderator (content approval)
+
+Security features:
+
+* Role-based access control
+* Approval system for content
+* No political or harmful content allowed
+
+---
+
+## 🧠 System Architecture Overview
+
+### Frontend:
+
+* React.js
+* Tailwind CSS
+* Component-based structure
+
+### Backend (Planned):
+
+* Spring Boot / .NET
+* REST APIs
+
+### Authentication:
+
+* Keycloak
+
+### Database (Planned):
+
+* PostgreSQL
+
+---
+
+## 🗂️ Core Entities
+
+### User
+
+* id
+* name
+* email
+* role
+* schoolId
+
+### School
+
+* id
+* name
+* type (government/international)
+* location
+* verification status
+
+### Announcement
+
+* id
+* title
+* message
+* type (Community / Targeted)
+* targetSchools[]
+* createdBy
+
+### Event
+
+* id
+* title
+* description
+* date
+* schoolId
+
+---
+
+## ⚙️ Admin Panels
+
+### 🏫 School Admin Panel
+
+* Manage events
+* Create announcements
+* Manage tickets
+* View reports
+* Manage donations
+
+---
+
+### 🛠️ Super Admin Panel
+
+* Approve schools
+* Manage users
+* Control advertisements
+* Manage sponsors
+* Monitor all activities
+* Control platform settings
+
+---
+
+## 💡 Business Model
+
+Revenue streams:
+
+* Advertisements
+* Sponsored content
+* Featured listings
+* Transaction fees (tickets/donations)
+
+---
+
+## 🚀 Future Enhancements
+
+* Mobile application (Android/iOS)
+* AI-based recommendations
+* Notification system (push/email)
+* Student-level access
+* Internal class-based communication
+* Advanced analytics dashboard
+
+---
+
+## 🇱🇰 Localization (Sri Lanka Focus)
+
+* Supports local school structure (Grade 1–13)
+* Includes government & international school types
+* Designed for local events like:
+
+  * Big matches
+  * School carnivals
+  * Inter-school competitions
+
+---
+
+## 🎯 Vision
+
+To become the **central digital platform for all schools in Sri Lanka**, connecting students, schools, and communities into one unified ecosystem.
+
+---
+
+## 🧩 Development Approach
+
+### Phase 1 (Current)
+
+* Web application
+* Core features (announcements, events, schools)
+
+### Phase 2
+
+* Payment integration
+* Mobile app
+
+### Phase 3
+
+* AI features
+* Advanced analytics
+
+---
+
+## 📌 Summary
+
+Ape Iskole is not just a website.
+
+It is a:
+
+* School communication platform
+* Event management system
+* Digital marketplace for school activities
+* Nationwide school network
+
+---
